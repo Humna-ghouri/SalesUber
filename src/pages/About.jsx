@@ -106,11 +106,11 @@ const AboutUs = () => {
   <div className="w-[90%] p-6">
     {/* About Us Section */}
     <section className="mb-12 ml-6 md:ml-8">
-      <h1 className="text-6xl font-black mb-6 text-black">About Us</h1> {/* Bold and large */}
+      <h1 className="text-4xl font-black mb-6 text-black">About Us</h1> {/* Bold and large */}
       <h2 className="text-4xl font-extrabold mb-6 text-gray-800"> {/* Bold and slightly smaller */}
         Discover SalesUberLC: Your Trusted Partner in Telecom Sales and Customer Success
       </h2>
-      <p className="mb-6 text-lg font-medium text-gray-700">
+      <p className="mb-6 text-lg font-sm text-gray-700">
         SalesUberLC was founded with a single goal in mind: to be the go-to partner for telecom providers looking to expand 
         their customer base and drive meaningful growth. With years of experience in sales and marketing, our team recognized 
         a gap in the industry—telecom providers needed a reliable partner who not only understood the technicalities of 
@@ -120,12 +120,12 @@ const AboutUs = () => {
     </section>
 
     {/* Divider */}
-    <div className="border-b-2 border-gray-200 mb-12"></div>
+    {/* <div className="border-b-2 border-gray-200 mb-12"></div> */}
 
     {/* Our Mission Section */}
     <section className="mb-12 ml-6 md:ml-8">
-      <h1 className="text-6xl font-black mb-6 text-black">Our Mission</h1> {/* Bold and large */}
-      <p className="mb-6 text-lg font-medium text-gray-700">
+      <h1 className="text-4xl font-black mb-6 text-black">Our Mission</h1> {/* Bold and large */}
+      <p className="mb-6 text-lg font-sm text-gray-700">
         At SalesUberLC, our mission is simple: to connect people with the services that improve their lives, while empowering 
         telecom providers to grow. We’re committed to supporting telecom providers through every step of the customer 
         acquisition process, from lead generation and outreach to seamless customer onboarding.
@@ -133,25 +133,25 @@ const AboutUs = () => {
     </section>
 
     {/* Divider */}
-    <div className="border-b-2 border-gray-200 mb-12"></div>
+    {/* <div className="border-b-2 border-gray-200 mb-12"></div> */}
 
     {/* What We Do Section */}
     <section className="mb-12 ml-6 md:ml-8">
-      <h1 className="text-6xl font-black mb-6 text-black">What We Do</h1> {/* Bold and large */}
-      <p className="mb-6 text-lg font-medium text-gray-700">
+      <h1 className="text-4xl font-black mb-6 text-black">What We Do</h1> {/* Bold and large */}
+      <p className="mb-6 text-lg font-sm text-gray-700">
         As a full-service sales and marketing agency for telecom providers, we specialize in end-to-end customer acquisition 
         solutions. Here’s a closer look at the core areas we focus on:
       </p>
       <div className="space-y-6">
-        <p className="text-lg font-medium text-gray-700">
+        <p className="text-lg font-sm text-gray-700">
           <strong className="text-black">Customer Acquisition:</strong> With a robust marketing strategy tailored to each provider’s unique brand, we reach 
           out to potential customers with precision, ensuring they’re well-informed and engaged.
         </p>
-        <p className="text-lg font-medium text-gray-700">
+        <p className="text-lg font-sm text-gray-700">
           <strong className="text-black">Sales Excellence:</strong> Our sales team is trained to understand each customer’s needs and match them with the best 
           telecom solutions in their area. Every interaction is crafted to build trust, helping customers make confident decisions.
         </p>
-        <p className="text-lg font-medium text-gray-700">
+        <p className="text-lg font-sm text-gray-700">
           <strong className="text-black">Customer Retention & Loyalty:</strong> Beyond sales, we are committed to nurturing long-term customer relationships. 
           Our follow-up process is designed to keep customers satisfied and loyal, promoting high retention rates for the providers 
           we work with.
@@ -164,21 +164,21 @@ const AboutUs = () => {
 
     {/* Our Values Section */}
     <section className="mb-12 ml-6 md:ml-8">
-      <h1 className="text-6xl font-black text-center mb-8 text-black">Our Values</h1> {/* Bold and large */}
+      <h1 className="text-4xl font-black text-center mb-8 text-black">Our Values</h1> {/* Bold and large */}
       <h2 className="text-4xl font-extrabold mb-6 text-center text-gray-800"> {/* Bold and slightly smaller */}
         At the heart of SalesUberLC, our values define who we are and guide everything we do:
       </h2>
       <div className="space-y-6">
-        <p className="text-lg font-medium text-gray-700">
+        <p className="text-lg font-sm text-gray-700">
           <strong className="text-black">Integrity:</strong> We believe in transparency, honesty, and ethics. Every interaction we have with customers and providers alike is rooted in our commitment to integrity.
         </p>
-        <p className="text-lg font-medium text-gray-700">
+        <p className="text-lg font-sm text-gray-700">
           <strong className="text-black">Quality Service:</strong> Quality isn’t just a goal—it’s a standard. From initial outreach to post-sale support, we ensure that every touchpoint is designed to exceed expectations.
         </p>
-        <p className="text-lg font-medium text-gray-700">
+        <p className="text-lg font-sm text-gray-700">
           <strong className="text-black">Customer-Centric:</strong> Our customers are at the core of our operations. We strive to provide solutions that genuinely benefit them and enhance their experience.
         </p>
-        <p className="text-lg font-medium text-gray-700">
+        <p className="text-lg font-sm text-gray-700">
           <strong className="text-black">Continuous Growth:</strong> For us, growth isn’t just about numbers; it’s about meaningful expansion. We work tirelessly to drive growth for our clients and contribute to their long-term success.
         </p>
       </div>
@@ -191,16 +191,16 @@ const AboutUs = () => {
     <section className="mb-12 ml-6 md:ml-8">
       <h2 className="text-4xl font-extrabold mb-6 text-black">Our Approach Includes:</h2> {/* Bold and slightly smaller */}
       <div className="space-y-6">
-        <p className="text-lg font-medium text-gray-700">
+        <p className="text-lg font-sm text-gray-700">
           <strong className="text-black">Targeted Marketing Campaigns:</strong> Utilizing data-driven insights to reach sophisticated customers.
         </p>
-        <p className="text-lg font-medium text-gray-700">
+        <p className="text-lg font-sm text-gray-700">
           <strong className="text-black">Transparent Process:</strong> Providing clear policies and services to help communities make informed decisions.
         </p>
-        <p className="text-lg font-medium text-gray-700">
+        <p className="text-lg font-sm text-gray-700">
           <strong className="text-black">Innovative Programs:</strong> Encouraging higher education and building a foundation for success.
         </p>
-        <p className="text-lg font-medium text-gray-700">
+        <p className="text-lg font-sm text-gray-700">
           <strong className="text-black">A Commitment to Excellence:</strong> Striving for excellence in everything we do.
         </p>
       </div>
@@ -212,7 +212,7 @@ const AboutUs = () => {
     {/* Serving Our Communities Section */}
     <section className="mb-12 ml-6 md:ml-8">
       <h2 className="text-4xl font-extrabold mb-6 text-black">Serving Our Communities</h2> {/* Bold and slightly smaller */}
-      <p className="text-lg font-medium text-gray-700">
+      <p className="text-lg font-sm text-gray-700">
         We believe that success is about people—our clients and the wider communities. We are dedicated to providing knowledge, skills, and resources for a better future.
       </p>
     </section>
@@ -223,13 +223,13 @@ const AboutUs = () => {
     {/* Partner with Us Section */}
     <section className="mb-12 ml-6 md:ml-8">
       <h2 className="text-4xl font-extrabold mb-6 text-black">Partner with Us</h2> {/* Bold and slightly smaller */}
-      <p className="text-lg font-medium text-gray-700">
+      <p className="text-lg font-sm text-gray-700">
         Choosing SalesUberLC means gaining a dedicated ally focused on your success. We specialize in marketing strategies that deliver real results.
       </p>
-      <p className="text-lg font-medium text-gray-700">
+      <p className="text-lg font-sm text-gray-700">
         From digital marketing to content marketing, we offer a range of services to help you achieve your business objectives.
       </p>
-      <p className="text-lg font-medium text-gray-700">
+      <p className="text-lg font-sm text-gray-700">
         Connect with SalesUberLC today to learn how we can help you grow your business.
       </p>
     </section>
