@@ -19,18 +19,18 @@ import {
 
 const Footer = () => {
   return (
-    <footer
+    <footer 
       className="relative py-14 text-white w-full"
       style={{
         backgroundImage: `url(${footerBg})`,
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
-        backgroundColor: "rgb(19, 0, 80)", // ✅ Background Color with Transparency
+        backgroundColor: "#133E89", // ✅ Background Color with Transparency
         backgroundBlendMode: "overlay", // ✅ Blend Image with Color
       }}
     >
-      <div className="container mx-auto text-center px-4 sm:px-8">
+      <div className="container mx-auto text-center px-4 sm:px-8 ">
         {/* ✅ Logo */}
         <div className="mb-10">
           {/* <img

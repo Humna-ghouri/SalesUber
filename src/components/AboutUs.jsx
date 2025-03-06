@@ -1,15 +1,14 @@
-
-
 import React from 'react';
 import mainImage from "../assets/image1-home1.png";
 import '@fortawesome/fontawesome-free/css/all.min.css'; // Import Font Awesome
+
 
 const AboutSection = () => {
   return (
     <section className="relative flex flex-col lg:flex-row items-center w-full py-16 lg:py-24 mt-20">
       {/* Left Text Content */}
       <div className="lg:w-[40%] text-left px-6 lg:px-10 lg:ml-[10%] lg:pt-16 lg:pb-16">
-        <h4 className="text-purple-700 text-xs uppercase ">// About Company</h4>
+        <h4 className="text-purple-700 text-xs uppercase">// About Company</h4>
         <h2 className="text-3xl lg:text-4xl font-bold mt-2">Who We Are</h2>
         <p className="text-gray-600 text-sm lg:text-base mt-4 font-bold">
           salesuberllc is a leading sales and marketing partner dedicated to helping telecom providers expand their reach and grow their customer base. 
@@ -50,18 +49,22 @@ const AboutSection = () => {
           alt="Team Work" 
           className="w-full lg:w-[90%] xl:w-[90%] max-w-none h-auto lg:h-[540px] xl:h-[500px] rounded-lg object-cover"
         />
-        {/* Learn More Button - 30% from Top */}
-        {/* <a href="#" 
-          className="absolute top-[80%] left-1/3 transform -translate-x-1/2 -translate-y-1/2 text-blue-400 text-sm flex items-center gap-2 bg-white px-4 py-2">
+        {/* Learn More Button - Desktop: Absolute, Hidden on Mobile */}
+        <a href="#" id="learnbtn"
+          className="hidden lg:flex lg:absolute lg:top-[80%] lg:left-1/3 lg:transform lg:-translate-x-1/2 lg:-translate-y-1/2 
+          text-blue-400 text-sm items-center gap-2 bg-white px-4 py-2"
+        >
           <span>&#10145;</span> LEARN MORE ABOUT US
-        </a> */}
-        <a href="#" 
-  className="lg:absolute lg:top-[80%] lg:left-1/3 lg:transform lg:-translate-x-1/2 lg:-translate-y-1/2 
-  text-blue-400 text-sm flex items-center gap-2 bg-white px-4 py-2 mt-4 lg:mt-0"
->
-  <span>&#10145;</span> LEARN MORE ABOUT US
-</a>
+        </a>
+      </div>
 
+      {/* Learn More Button - Show below image on screens less than 1025px */}
+      <div className="w-full flex justify-center lg:hidden mt-6">
+        <a href="#" 
+          className="text-blue-400 text-sm flex items-center gap-2 bg-white px-4 py-2"
+        >
+          <span>&#10145;</span> LEARN MORE ABOUT US
+        </a>
       </div>
     </section>
   );
